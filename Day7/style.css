@@ -1,0 +1,58 @@
+.loginBox{
+            padding: 40px;
+            background-color: rgb(182, 236, 236);
+            width: 30%;
+            margin: auto;
+            margin-top: 100px;
+            border-radius: 20px;
+        }
+        .text-center{
+            text-align: center;
+        }
+
+        .loginForm{
+            padding: 30px;
+        }
+
+        .mb-2{
+            margin-bottom: 12px;
+        }
+
+        input{
+            width: 90%;
+            padding: 8px;
+            margin-top: 6px;
+            border-radius: 8px;
+        }
+
+        input[type=radio]{
+            width: 10px;
+            padding: 8px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        select{
+            width: 95%;
+            padding: 8px;
+            margin-top: 6px;
+            border-radius: 8px;
+        }
+
+
+
+        .btn{
+            width: 100px;
+            padding: 8px;
+            font-size: 20px;
+            background-color: tomato;
+            color: #ffffff;
+        }
+
+        @media(max-width:600px)
+        {
+            .loginBox{
+                width: 75%;
+                padding: 15px;
+            }
+        }
